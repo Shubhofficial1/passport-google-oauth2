@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A Node App that will help to login using passport google oauth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Passportjs"
+  ],
+  "author": "Shubham Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
